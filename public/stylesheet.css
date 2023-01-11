@@ -1,0 +1,455 @@
+.background-image {
+    background-image: url("public/HORDING.jpg");
+   
+    background-size: cover;
+}
+header{
+display:flex;
+justify-content: space-between;
+background-color:white;
+font-family: arial;
+color: black;
+padding: 20px;
+
+margin-top: -40px;
+
+}
+
+.heading3 {
+display:flex;
+justify-content: space-between;
+background-color:#eaceea;
+font-family: arial;
+color:black;
+margin-top: -10px;
+margin-bottom: 40px;
+
+}
+span{
+margin-right: 20px;
+}
+.brand-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-sociabar1 {
+    color: black;
+    background-color: beige;
+    position: fixed;
+    font-size: 20px;
+    right: 10px;
+    bottom: 5px;
+    padding: 3px;
+}
+
+.section-sociabar div {
+     
+    margin-bottom:5px;
+}
+.bg-shade {
+            background-color: rgba(0,0,0,0.5);
+            height: 700px;
+            margin-top: -20px;
+            margin-left: -20px;
+            margin-right: -20px;
+}
+section{
+    
+}
+                    footer{
+                    display:grid;
+                    grid-template-columns: 3fr 2.25fr 2.25fr 2.25fr 2.25fr;
+                    font-family: arial;
+                    background-color:black;
+                    color:white;
+                    padding: 15px;
+                    font-size:16px;
+                    margin-bottom: -10px;
+                    }
+                    .social-bar{
+                        margin-top: 20px;;
+                    }
+                    .social-bar span{
+                        margin-right: 10px;
+
+                    }
+                    .footer-title{
+                        font-weight: bold;
+                        font-size: 30px;
+                    }
+                    .footer-title~div{
+                        margin-bottom: 10px;
+                        margin-top: 10px;
+                    }
+                    .brand-footer
+                {
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                .h1 {
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-family: arial;
+                    margin-left: 120px;
+                }
+                .h2 {
+                    font-size: 14px;
+                    font-family: Arial;
+                    font-weight: bold;
+                }
+                .h3 {
+                    color:gray;
+                    size: 14px;
+                } .holiday {
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-top: 2px;
+                    background-color: black;
+                    color: white;
+                    justify-content: center;
+                    
+                }
+                #count {
+                    position: relative;
+                }
+                .marq {
+                    font-size: 18px;
+                }
+                
+                .cart-count{
+                    position: absolute;
+                    top: -15px;
+                    right: -15px;
+                    width:20px;
+                    height: 20px;
+                }
+                .fashion {
+                    display: grid;
+                    grid-template-columns:4fr 4fr 4fr;
+                    padding-top: 5px;
+                }
+                .women {
+                    background-image: url(./images/women2.jpg);
+                    height: 400px;
+                    background-size: cover;
+                    width: 100%;
+                    text-align: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    display: flex;
+                    opacity: 0.8;}
+                    .women:hover{
+                         opacity: 1;
+                    }
+                .men {
+                    background-image: url(./images/men2.jpg);
+                    height: 400px;
+                    background-size: cover;
+                    width: 100%;
+                    text-align: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    display: flex;
+                    opacity: 0.8;
+                } 
+                .men:hover{
+                    opacity: 1;
+                }
+                .kids {
+                    background-image: url(./images/kids.webp);
+                    height: 400px;
+                    background-size: cover;
+                    width: 100%;
+                    text-align: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    display: flex;
+                    opacity: 0.8;
+                }
+                .kids:hover{
+                    opacity: 1;
+                }
+                .banner-title{
+                    font-size: 44px;
+                    color: white;
+                    font-weight: bold;
+                }
+                
+                button{
+                    width: 250px;
+                    height:50px;
+                    font-size:26px;
+                    border: none;
+                    background-color: white;
+                    
+                }
+                
+                .policy {
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 20px;
+                    margin-top: 15px;
+                    
+                }
+                hr{
+                    width:85%;margin-left: 100px;color: gray;
+                }
+                .policy-head{
+                    font-size:14px;
+                    font-family: arial;
+                    font-weight: bold;
+                }
+                .policy-para{
+                    font-size: 14px;
+                }
+                .new-collection{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top:80px;
+                    margin-bottom:70px;
+                }
+                .collection {
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: gray;
+                }
+                .picks{
+                    font-size:35px;
+                    font-family: arial;
+                    font-weight: bold;
+                }
+                .about {
+                    font-size: 16px;
+                }
+                .new-collection2{
+                    display: flex;
+                    justify-content: center;
+
+                }
+                .bag-collection {
+                    background-image: url(./images/women3.jpg);
+                    width: 400px;
+                    height: 400px;
+                    background-size:cover;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 10px;
+                    transform: translateX(0px);
+                    overflow:auto;
+                    border: 1px solid gray;
+                }
+                .bag-collection:hover {
+                    transform: translateX(-1px);
+                    
+                }
+                
+            
+                .printed-shirts{
+                    background-image:url(./images/mens6.jpg);
+                    width:650px;
+                    height: 400px;
+                    background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 10px;
+                    transform: translateX(0px);
+                    overflow:auto;
+                    border: 1px solid gray;
+
+                }
+                .printed-shirts:hover {
+                    transform: translateX(-1px);
+                    
+                }
+                
+                .bags-title{
+                                font-size: 44px;
+                                color: white;
+                                font-weight: bold;
+                }
+                .shirts-title{
+                                 font-size: 44px;
+                                color: white;
+                                font-weight: bold;
+                }
+                .sweat-title{
+                    font-size: 44px;
+                    color: white;
+                    font-weight: bold;
+    }
+    .basic-title{
+                     font-size: 44px;
+                    color: white;
+                    font-weight: bold;
+    }
+.basic-dress{
+        background-image:url(./images/women5.jpg);
+        width:650px;
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        transform: translateX(0px);
+         overflow:auto;
+        border: 1px solid gray;
+    }
+    .basic-dress:hover {
+        transform: translateX(-1px);}
+
+        .sweatdress
+        {
+        background-image:url(./images/women6.avif);
+        width:400px;
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        transform: translateX(0px);
+        overflow:auto;
+        border: 1px solid gray;
+    }
+    .sweatdress:hover {
+        transform: translateX(-1px);}
+        .card
+   {
+  display:grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  border: none;
+  margin-left: 142px;
+  margin-right: 120px;
+ }
+ img {
+  width: 250px;
+  height: 300;
+ }
+ .p2 {
+ margin-top:-20px;
+ font-weight: bold;
+ }
+ .p3{
+  margin-top: -20px;
+  font-weight: bold;
+  color: black;
+ }
+ .sellers a {
+  text-decoration: none;
+  color: black;
+ }
+ .discover-more a {
+    text-decoration: none;
+    color: black;
+    border-bottom:1px solid black;
+  }
+  .discover-more a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: none;}
+    .summercollection{
+        background-image: url(images/collectionsummer2.PNG);
+        width: 12fr;
+        height: 500px;
+        background-size:cover;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .shopper {
+            background-color: #d7c8d3;
+            background-size: cover;
+            height: 600px;
+      }
+      .summercollection div {
+        margin-left: 400px;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: arial;    
+      }
+      .button3 button {
+        width: 170px;
+        height: 60px;
+        font-size: 24px;
+        background-color: black;
+        color: white;
+        margin-left: -150px;   
+      }
+      .images img {
+        width: 200px;
+        height: 200px;
+        margin: 3px;
+      }
+      .puduct-overlay {
+      background: #FE980F;
+      top: 0;
+      display: none;
+      position: absolute;
+      transition: height 500s ease 0s;
+      width: 100%;
+      display: block;
+      opacity: ;
+      }
+      .brandname img{
+        width: 150px;
+        height: 30px;
+        margin:8px;
+        margin-top: 40px;
+        margin-left: 30px;
+      }
+      .subscriber{
+        text-align: center;
+        background-color: black;
+        color: white;
+        height: 200px;
+        display: grid;
+        
+      }   
+      .subscriber .idea {
+           margin-top: 50px;
+      }  
+      .subscriber button {
+        width: 150px;
+        height: 50px;
+        font-size:16px;
+        font-family: arial;
+        font-weight: bold;
+        background-color: gray;
+        color: white;
+      }  
+      .subscriber input {
+        width: 300px;
+        height: 50px;
+        background-color: #4f4f4f;
+        color: gray;
+      }
+      .box .box1 {
+        border:1px solid black;
+        width: 340px;
+        height: 400px;
+        display: grid;
+        gap:20px;
+        padding: 10px;
+        overflow: hidden;
+       }  
+       .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:30px;
+        gap: 30px;
+        
+       }   
+       .box .box1 img {
+        width: 100px;
+        height: 100px;
+       }
