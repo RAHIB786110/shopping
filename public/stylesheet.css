@@ -1,8 +1,5 @@
-.background-image {
-    background-image: url("public/HORDING.jpg");
-   
-    background-size: cover;
-}
+
+
 header{
 display:flex;
 justify-content: space-between;
