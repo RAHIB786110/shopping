@@ -12,7 +12,7 @@ margin-top: -40px;
 
 }
 
-.heading3 {
+#heading3 {
 display:flex;
 justify-content: space-between;
 background-color:#eaceea;
@@ -116,7 +116,7 @@ section{
                 .cart-count{
                     position: absolute;
                     top: -15px;
-                    right: -15px;
+                    
                     width:20px;
                     height: 20px;
                 }
@@ -323,8 +323,7 @@ section{
   display:grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   border: none;
-  margin-left: 142px;
-  margin-right: 120px;
+  padding: ;
  }
  img {
   width: 250px;
@@ -354,7 +353,7 @@ section{
     border-bottom: none;}
     .summercollection{
         background-image: url(images/collectionsummer2.PNG);
-        width: 12fr;
+        width: 100%;
         height: 500px;
         background-size:cover;
         align-items: center;
@@ -362,13 +361,14 @@ section{
         flex-direction: column;
         justify-content: space-evenly;
       }
-      .shopper {
+      #shopper {
             background-color: #d7c8d3;
             background-size: cover;
+            
             height: 600px;
       }
       .summercollection div {
-        margin-left: 400px;
+        
         font-size: 40px;
         font-weight: bold;
         font-family: arial;    
@@ -379,12 +379,16 @@ section{
         font-size: 24px;
         background-color: black;
         color: white;
-        margin-left: -150px;   
+        
       }
-      .images img {
+      #images img {
         width: 200px;
         height: 200px;
         margin: 3px;
+      }
+      #images{
+        display: flex;
+        
       }
       .puduct-overlay {
       background: #FE980F;
@@ -401,7 +405,7 @@ section{
         height: 30px;
         margin:8px;
         margin-top: 40px;
-        margin-left: 30px;
+       
       }
       .subscriber{
         text-align: center;
@@ -442,7 +446,7 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left:30px;
+        
         gap: 30px;
         
        }   
